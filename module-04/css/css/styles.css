@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ccf url(../img/imgs.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 42px auto 64px auto;
+    padding: 118px 62px 86px 62px;
+    background-color: #ffffff;
+   
+}   
+
+
+
+/* первый блок 1 колонки */
+
+.colomb-one{
+    float: left;
+
+}
+
+.imgpage{
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 23px; 
+    background-image: url(../img/picture.jpg);
+    display: block;
+    height: 280px;
+    width: 360px;   
+}
+
+.boxfirst{
+    float: left;
+    display: inline-block;
+    width: 640px;
+    vertical-align: top;
+    margin-right: 48px;
+    margin-bottom: 54px;
+}
+
+.title-one{
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-weight: normal; 
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.subtitleone{
+    color: #263555;
+    font-weight: normal; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+
+.text-one{
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 14px;
+} 
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+
+
+/* 2 блок 1 колонки */
+
+.boxtwo{
+    float: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 208px;
+}
+
+.title-two{
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-weight: normal; 
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.list{
+    float: left;
+    list-style: none;
+    counter-reset: list;
+}
+
+.list-one{
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+.list-one::before{
+    counter-increment: list;
+    content: counter(list);
+    border-radius: 50%;
+    outline: 1px;
+    outline-color: #5099ba;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 14px;  
+    float: left;
+    background-color: #38afe5;
+    color: white;
+    font-weight: normal; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    
+}
+
+.articleall{
+    float: left;
+    width: calc(100% - 44px);
+}
+
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+
+.subtitletwo{
+    color: #263555;
+    font-weight: normal; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+    line-height: 19px;  
+}
+
+.text-two{
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-size: 13px;
+    line-height: 19px;
+}
+
+
+
+
+.line{
+    background-color: #dedbdb; 
+    height: 2px;
+    width: 902x;
+}
+
+
+
+
+
+/* 1 блок 2 колонки  */
+
+.colomb-two{
+    float: left;
+    font-size: 0;
+    padding-top: 60px;
+}
+
+.sidebar{
+    display: inline-block;
+    width: 640px;
+    vertical-align: top;
+    font-size: 0;
+    float: left;
+}
+
+.boxthird{
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    margin-bottom: 66px;
+    font-weight: normal; 
+}
+
+.subtitlethree{
+    color: #263555;
+    font-weight: normal; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 22px;
+    line-height: 19px;
+}
+
+.text-three{
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal; 
+    line-height: 19px;
+}
+
+.ul{
+    list-style: none;
+    list-style-position: outside;
+    display: inline-block;
+    columns: 2;
+    vertical-align: top;
+    margin: 36px 0px 0px;
+    color: #263535;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-size: 15px;
+    text-align: left;
+    line-height: 22.8px;
+}
+
+.ul-li{
+    margin-bottom: 22px;
+}
+
+.ul-li::before{
+    content: "\2192";
+    color: #38afe5;
+    padding: 14px;
+}
+
+/* 2 блок 2 колонки */
+
+
+.content{
+    display: inline-block;
+    width: 214px;
+    vertical-align: top;
+    margin-left: 42px;
+    float: left;
+}
+
+.boxfour{
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    font-weight: normal; 
+    color: #263555;
+    margin-bottom: 24px;   
+}
+
+.boxshadow{
+    display: inline-block;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    width: 212px;
+    color: #263535;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-size: 15px;
+    line-height: 19px;
+    padding: 22px;
+    background-color: #fcfafa;
+    margin-bottom: 34px;
+}
+
+.qoute::before{
+    content: "\201C";
+    background-color: #fcfafa;
+}
+
+.qoute::after{
+    content: "\201D";
+    background-color: #fcfafa;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22.8px;
+    font-weight: normal; 
+    color: #263555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.position{
+    color: #263535;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
