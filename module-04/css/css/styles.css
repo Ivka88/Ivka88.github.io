@@ -164,7 +164,7 @@ body {
 
 
 .line{
-    background-color: #dedbdb; 
+    background-color: #dedbdb;
     height: 2px;
     width: 902x;
 }
@@ -215,28 +215,32 @@ body {
 }
 
 .ul{
+    display: inline-block;
+    width: 640px;
+    margin-bottom: 22px;
+}
+
+.ul-li{
     list-style: none;
     list-style-position: outside;
     display: inline-block;
-    columns: 2;
+    width: 640px;
+    width: 50%;
     vertical-align: top;
-    margin: 36px 0px 0px;
     color: #263535;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal; 
     font-size: 15px;
-    text-align: left;
+    margin: 36px 0px 0px;
     line-height: 22.8px;
 }
 
-.ul-li{
-    margin-bottom: 22px;
-}
 
 .ul-li::before{
     content: "\2192";
     color: #38afe5;
-    padding: 14px;
+    padding: 0px 14px 0px 0px;
+
 }
 
 /* 2 блок 2 колонки */
@@ -260,7 +264,7 @@ body {
 
 .boxshadow{
     display: inline-block;
-    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
     width: 212px;
     color: #263535;
