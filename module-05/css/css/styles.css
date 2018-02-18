@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ffffff; 
+    min-height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    width: 1600px;
+    background-color: #ffffff; 
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+} 
+
+.logo:first-letter, .menu-item:first-child, .gallery-bottom:last-child {
+    color:  #1abc9c; 
+} 
+
+.page-header, .iner, .name-clothes {
+    background-color: #ffffff;
+}
+
+.gallery-caption, .gallery-word:first-child, .name-clothes, .price-clothes, .footer-title {
+    color: #ffffff;
+}
+
+
+
+
+/* header */
+.page-header {
+    float: left;
+    position: relative;
+    height: auto;
+    width: 1600px;
+}
+
+.logo {
+    position: absolute;
+    top: 38px;
+    left: 246px;
+    color: #555252;
+    width: 256px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    padding: 42px 246px 40px 0px;
+    color: #0f0101;
+    font-weight: bold; 
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+.menu-item {
+    float: left;
+    margin-right: 30px;
+    line-height: 10px;
+}
+
+
+/*  Gallery*/
+.gallery-body {
+    float: left;
+    position: relative;
+    width: 1600px;
+    height: 586px;
+    display: block;
+    background-color: #0f0101;
+}
+
+.imgpage {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat, center center, cover; 
+}
+
+.opacity {
+    position: absolute;
+    width: 1600px;
+    height: 586px;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+.imgpage::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';         
+}
+
+.gallery-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-caption {
+    position: absolute;
+    top: 230px;
+    left: 480px;
+   
+}
+
+.gallery-word {
+    font-size: 46px;
+    font-weight: bold; 
+}
+
+.word {
+    margin-top: 34px;
+    font-size: 18px;
+    font-weight: normal; 
+}
+
+.box-one {
+    position: absolute;
+    background-color:  rgba(10, 238, 181, 0.411);
+    opacity: 70%;
+    top: 230px;
+    left: 245px;
+    height: 104px;
+    width: 104px;
+}
+
+.box-one::before, .box-two::before {
+    position: absolute;
+    color: #ffffff;
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-two {
+    position: absolute;
+    background-color:  rgba(10, 238, 181, 0.411);
+    top: 230px;
+    right: 245px;
+    height: 104px;
+    width: 104px;
+}
+
+.box-one::before {
+    content: "\003C";
+}
+
+.box-two::before {
+    content: "\003E";
+}
+
+/* collection */
+
+.title-coll {
+    float: left;
+    position: relative;
+    background-color: #e9f0fd;
+    width: 1600px;
+    height: 678px;
+}
+
+.title-name {
+    position: absolute;
+    top: 104px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #515151;
+    font-size: 34px; 
+}
+
+.line {
+    position: absolute;
+    top: 168px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1abc9c;
+    height: 8px;
+    width: 160px;    
+}
+
+
+/* collection */
+.iner {
+    position: absolute;
+    margin-right: 30px;
+    height: 324px;
+    width: 256px;
+    top: 256px;
+}
+
+.section-one {
+    left: 243px;
+}
+
+.section-two {
+    left: 529px;  
+    display: inline-block;
+    margin: 0px;
+}
+
+.section-three {
+    left: 815px;
+}
+
+.section-four {
+    left: 1101px;
+}
+
+.iner:last-child {
+    margin-right: 0px;
+}
+
+.name-clothes {
+    position: absolute;
+    height: 42px;
+    width: 256px;
+    left: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    font-weight: normal; 
+    text-transform: uppercase;
+}
+
+.name {
+    position: absolute;
+    height: 42px;
+    width: 202px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #323232;
+    padding: 14px 0px 0px 14px;
+}
+
+.price {
+    position: absolute;
+    height: 42px;
+    width: 54px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #8c8c8c;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.name-shirt, .price-shirt {
+    left: 0px;
+    bottom: 0px;
+}
+
+.name-shirt {
+    position: absolute;
+    background-color: #1abc9c;
+    height: 42px;
+    width: 202px;
+    left: 0px;
+    bottom: 0px;
+    padding: 14px 0px 0px 14px;
+}
+
+.price-shirt {
+    position: absolute;
+    background-color: #7fd9c7;
+    padding-top: 14px;
+    height: 42px;
+    width: 54px;
+    left: 202px;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.icon-table {
+    position: absolute;
+    width: 234px;
+    top: 10px;
+    left: 10px;
+    height: 264px;
+    background-color: rgba(75, 65, 56, 0.55);
+    margin-right: 0px;
+    display: none;
+}
+
+.member {
+    position: relative; 
+}
+
+.member:hover > .icon-table {
+    display: block;
+}
+
+.icon-love {
+    border: 1px solid #ffffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 74px;
+    left: 29px;
+}
+
+.icon-arrows {
+    border: 1px solid #ffffff;
+    background-color: #1abc9c;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 74px;
+    left: 91px;
+}
+
+.icon-clock {
+    border: 1px solid #ffffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 74px;
+    left: 153px;
+}
+
+.shop {
+    border: 1px solid #ffffff;
+    position: relative;
+    display: inline-block;
+    left: 29px;
+    background-color: #323232;
+    top: 136px;
+    height: 50px;
+    width: 176px;
+    margin-right: 0px; 
+}
+
+.text {
+    float: left;
+    display: inline-block;
+    padding: 20px 0px 12px 10px;
+    margin-left: 60px;
+    color: #ffffff;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-love::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-arrows::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-clock::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-shop::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 20px;
+}
+
+
+.icon:nth-child(3) {
+    margin-right: 0px;
+}
+
+/* footer */
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    float: left;
+    background-color: #323232;
+    width: 1600px;
+    height: 88px;   
+}
+
+.gallery-bottom{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 38px 0px 33px 596px;
+    font-size: 14px;
+}
+
+.footer-title {
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+
+.gallery-bottom:last-child {
+    margin-right: 0px;
+    padding-left: 8px;
+}
+
+
+
