@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ffffff; 
+    min-height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    width: 1600px;
+    background-color: #ffffff; 
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+} 
+
+.logo:first-letter, .gallery-bottom:last-child {
+    color:  #1abc9c; 
+} 
+
+.page-header, .iner, .name-clothes {
+    background-color: #ffffff;
+}
+
+.gallery-caption, .gallery-word:first-child, .name-clothes, .price-clothes, .footer-title {
+    color: #ffffff;
+}
+
+
+
+
+/* header */
+.page-header {
+    float: left;
+    height: auto;
+    width: 1600px;
+    padding: 38px 246px 38px;
+}
+
+.logo {
+    float: left;
+    color: #555252;
+    width: 80px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 566px;
+}
+
+.menu {
+    float: left;
+    list-style: none;
+}
+
+.menu-link:last-child {
+    margin-right: 0px;
+}
+
+.menu-link:first-child {
+    color: #1abc9c; 
+}
+
+.menu-item {
+    float: left;
+    display: inline-block;   
+}
+
+.menu-link {
+    display: inline-block;
+    float: left; 
+    font-size: 12px;
+    margin-right: 30px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0101;
+    font-weight: bold;
+}
+
+
+
+/*  Gallery*/
+.gallery-body {
+    float: left;
+    position: relative;
+    width: 1600px;
+    height: 586px;
+    display: block;
+    background-color: #0f0101;
+}
+
+.imgpage {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat, center center, cover; 
+}
+
+.opacity {
+    position: absolute;
+    width: 1600px;
+    height: 586px;
+}
+
+.slayder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+.imgpage::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';         
+}
+
+.gallery-caption {
+    position: relative;
+    top: 198px;
+    left: 480px;
+    display: inline-block;
+}
+
+.gallery-word {
+    font-size: 46px;
+    font-weight: bold; 
+}
+
+.word {
+    margin-top: 34px;
+    font-size: 18px;
+    font-weight: normal; 
+}
+
+.box-one  {
+    position: absolute;
+    background-color:  rgba(10, 238, 181, 0.411);
+    top: 230px;
+    left: 245px;
+    height: 104px;
+    width: 104px;
+}
+
+.box-two {
+    position: absolute;
+    background-color:  rgba(10, 238, 181, 0.411);
+    top: 230px;
+    right: 245px;
+    height: 104px;
+    width: 104px;
+}
+
+.box-one::before, .box-two::before {
+    position: absolute;
+    color: #ffffff;
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-one::before {
+    content: "\003C";
+}
+
+.box-two::before {
+    content: "\003E";
+}
+
+/* collection */
+
+.title-coll {
+    display: inline-block;
+    float: left;
+    position: relative;
+    background-color: #e9f0fd;
+    width: 1600px;
+    height: 676px;
+    padding: 256px 243px 95px;
+}
+
+.title {
+    display: block;
+    float: left;
+}
+
+.title-coll::before {
+    position: absolute;
+    content: "";
+    top: 168px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1abc9c;
+    height: 8px;
+    width: 160px; 
+}
+
+.title-name {
+    position: absolute;
+    top: 104px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #515151;
+    font-size: 34px; 
+}
+
+/* collection */
+
+
+.figure {
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+    height: 282px;
+    width: 256px;
+    top: 256px;
+}
+
+.figure:last-child {
+    margin-right: 0px;
+}
+
+.block {
+    width: 256px;
+    height: 40px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal; 
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.name {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 200px;
+    background-color: #323232;
+    margin-right: 0px;
+    padding: 13px 0px 13px 13px;
+    font-weight: bold;
+}
+
+.price {
+    float: right;
+    width: 56px;
+    display: inline-block;
+    height: 40px;
+    background-color: #8c8c8c;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.name-shirt {
+    float: left;
+    display: inline-block;
+    background-color: #1abc9c;
+    height: 40px;
+    width: 200px;
+    padding: 13px 0px 13px 13px;
+}
+
+.price-shirt {
+    float: right;
+    display: inline-block;
+    background-color: #7fd9c7;
+    height: 40px;
+    width: 56px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat, center center, cover; 
+}
+
+.icon-table {
+    position: absolute;
+    display: inline-block;
+    width: 234px;
+    top: 10px;
+    left: 10px;
+    height: 264px;
+    background-color: rgba(75, 65, 56, 0.55);
+    margin-right: 0px;
+    /* display: none; */
+}
+
+.member {
+    float: left;
+    position: relative; 
+}
+
+.member:hover > .icon-table {
+    display: block;
+}
+
+.icon-love {
+    border: 1px solid #ffffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 74px;
+    left: 29px;
+}
+
+.icon-arrows {
+    border: 1px solid #ffffff;
+    background-color: #1abc9c;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 74px;
+    left: 91px;
+}
+
+.icon-clock {
+    border: 1px solid #ffffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 74px;
+    left: 153px;
+}
+
+.shop {
+    border: 1px solid #ffffff;
+    position: relative;
+    display: inline-block;
+    left: 29px;
+    background-color: #323232;
+    top: 136px;
+    height: 50px;
+    width: 176px;
+    margin-right: 0px; 
+}
+
+.text {
+    float: left;
+    display: inline-block;
+    padding: 20px 0px 12px 10px;
+    margin-left: 60px;
+    color: #ffffff;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-love::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-arrows::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-clock::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 10px;
+}
+
+.icon-shop::before {
+    position: absolute;
+    content: "\263a";
+    color: #ffffff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 20px;
+}
+
+
+.icon:nth-child(3) {
+    margin-right: 0px;
+} 
+
+
+/* footer */
+
+.bottom {
+    float: left;
+    display: inline-block;
+    background-color: #323232;
+    width: 1600px;
+    height: 88px;   
+}
+
+.gallery-bottom{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-title {
+    list-style: none; 
+    text-align: center;
+    padding: 38px 0px 33px 0px;
+}
+
+.gallery-bottom:last-child {
+    margin-right: 0px;
+    padding-left: 8px;
+}
+
+
+
