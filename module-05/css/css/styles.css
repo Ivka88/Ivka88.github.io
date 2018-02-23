@@ -66,16 +66,13 @@ body {
     float: right;
     list-style: none;
     padding-left: 8px;
+    color: #0f0101;
 }
 
 .menu-link:last-child {
     margin-right: 0px;
 }
 
-.menu-link:first-child {
-    color: #1abc9c; 
-    font-weight: normal;
-}
 
 .menu-link {
     display: inline-block;
@@ -87,11 +84,10 @@ body {
     font-weight: normal;
     padding: 6px;
 }
-
 .menu-link:hover {
     color: #1abc9c;
     cursor:pointer;
-    text-decoration: underline;
+
 }
 
 /*  Gallery*/
