@@ -6,18 +6,14 @@
 
 body {
     background: #ffffff; 
-    width: 100%;
-    height: 100%;
+    font-family: Roboto;
 }
 
 .container {
-    width: 1140px;
     margin-left: auto;
     margin-right: auto; 
-}
-
-.row {
-    width: 1600px;
+    max-width: 1140px;
+    padding: 0px 15px;
 }
 
 .clearfix::after {
@@ -42,32 +38,34 @@ body {
 
 
 /* header */
-.page-header {
-    float: left;
-    height: auto;
-    width: 1600px;
-    padding: 38px 246px 38px;
+
+.block-header {
+    background-color: #ffffff;
+}
+.header {
+    margin: 0px auto;
+    max-width: 1170px;
+    padding: 30px 15px 34px;
+    height: 92px;
 }
 
 .logo {
     float: left;
     color: #555252;
-    width: 90px;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: normal;
-    font-family: Roboto;
 }
 
-.header {
+.menu-header {
     float: right;
 }
 
-.menu {
-    margin-top: 10px;
+.menu-item {
     float: right;
     list-style: none;
+    padding-left: 8px;
 }
 
 .menu-link:last-child {
@@ -77,7 +75,6 @@ body {
 .menu-link:first-child {
     color: #1abc9c; 
     font-weight: normal;
-    font-family: Roboto;
 }
 
 .menu-link {
@@ -89,7 +86,6 @@ body {
     color: #0f0101;
     font-weight: normal;
     padding: 6px;
-    font-family: Roboto;
 }
 
 .menu-link:hover {
@@ -99,64 +95,71 @@ body {
 }
 
 /*  Gallery*/
-.gallery-body {
-    float: left;
+.row {
+    background-color: #ffffff;
+    height: 1276px;
+}
+
+.gallery {
+    background: #0f0101; 
     position: relative;
-    width: 1600px;
-    height: 586px;
-    display: block;
-    background-color: #0f0101;
+    padding: 0px 15px;
+    height: 600px;
+    background-image: #0f0101 url(../img/img1.jpg);
+    background-repeat: no-repeat, center center, cover;
+}
+.container-one {
+    margin: 0px auto;
+    max-width: 1170px;
+    height: 600px;
 }
 
 .imgpage {
     position: absolute;
-    display: block;
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat, center center, cover; 
-}
-
-.opacity {
-    position: absolute;
-    width: 1600px;
-    height: 586px;
+    margin: 0px auto;
+    max-width: 1600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
 }
 
 .slayder {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1600px;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.52);
 }
 
 .gallery-caption {
     position: relative;
     top: 198px;
-    left: 390px;
+    left: 420px;
     display: inline-block;
 }
 
 .gallery-word {
     font-size: 60px;
     font-weight: normal;
-    font-family: Roboto;
 }
 
 .word {
     margin-top: 30px;
     font-size: 24px;
     font-weight: normal;
-    font-family: Roboto;
 }
 
 .button-one  {
     position: absolute;
     background-color:  rgba(10, 238, 181, 0.411);
     top: 230px;
-    left: 245px;
     height: 104px;
     width: 104px;
     font-size: 60px;
+    left: 246px;
     color: #ffffff;
     border: 1px solid rgba(10, 238, 181, 0.1);
 }
@@ -165,7 +168,7 @@ body {
     position: absolute;
     background-color:  rgba(10, 238, 181, 0.411);
     top: 230px;
-    right: 245px;
+    right: 246px;
     height: 104px;
     width: 104px;
     font-size: 60px;
@@ -192,45 +195,49 @@ body {
 
 
 /* collection */
-
-.title-coll {
-    display: inline-block;
-    float: left;
-    position: relative;
+.main-two {   
     background-color: #e9f0fd;
-    width: 1600px;
     height: 676px;
-    padding: 256px 243px 95px;
+}
+.container-two {
+    margin: 0px auto;
+    max-width: 1170px;
+    height: 676px;
+    background-color: #e9f0fd;
+    padding: 100px 15px;
+}
+
+.title-name {
+    position: relative;
+    display: inline-block;
+    color: #515151;
+    font-size: 48px; 
+    font-weight: normal;
+    margin: 0px 370px 120px;
 }
 
 .title-name::before {
     position: absolute;
+    display: inline-block;
     content: "";
-    top: 78px;
     background-color: #1abc9c;
     height: 8px;
     width: 160px; 
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 74px;
+    left: 110px;
 }
 
-.title-name {
-    position: absolute;
-    top: 104px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #515151;
-    font-size: 48px; 
-    font-weight: normal;
-    font-family: Roboto; 
-}
 
 /* collection */
 
+.content {
+    padding-left: 10px;
+    height: 322px;
+}
 
 .member {
-    float: left;
     display: inline-block;
+    position: relative;
     margin-right: 30px;
     height: 282px;
     width: 256px;
@@ -249,7 +256,6 @@ body {
     font-weight: normal;
     font-size: 18px;
     font-weight: normal;
-    font-family: Roboto; 
 }
 
 .name {
@@ -272,35 +278,21 @@ body {
     padding-top: 10px;    
 }
 
-.name-shirt {
-    float: left;
-    display: inline-block;
+.name:hover {
     background-color: #1abc9c;
-    height: 40px;
-    width: 200px;
-    padding: 10px 0px 13px 13px;
 }
 
-.price-shirt {
-    float: right;
-    display: inline-block;
+.price:hover {
     background-color: #7fd9c7;
-    height: 40px;
-    width: 56px;
-    text-align: center;
-    padding-top: 10px;
 }
 
 .img {
     display: block;
-    width: 100%;
-    height: auto;
     background-repeat: no-repeat, center center, cover; 
 }
 
 .icon-table {
     position: absolute;
-    display: inline-block;
     width: 234px;
     top: 10px;
     left: 10px;
@@ -308,11 +300,6 @@ body {
     background-color: rgba(75, 65, 56, 0.55);
     margin-right: 0px;
     display: none;
-}
-
-.member {
-    float: left;
-    position: relative; 
 }
 
 .member:hover > .icon-table {
@@ -331,12 +318,16 @@ body {
 
 .icon-arrows {
     border: 1px solid #ffffff;
-    background-color: #1abc9c;
+    background-color: rgba(0, 0, 0, 0.01);
     position: absolute;
     height: 50px;
     width: 50px;
     top: 74px;
     left: 91px;
+}
+
+.icon-arrows:hover {
+    background-color: #1abc9c;
 }
 
 .icon-clock {
@@ -362,7 +353,6 @@ body {
     padding-right: 14px;
 }
 
-
 .text {
     float: right;
     display: block;
@@ -370,16 +360,13 @@ body {
     color: #ffffff;
     font-size: 14px;
     text-align: center;
-    font-family: OpenSans;
     font-weight: normal;
 }
-
 
 .icon-love::before {
     position: absolute;
     top: 5px;
     left: 10px;
-
 }
 
 .icon-arrows::before {
@@ -395,6 +382,7 @@ body {
     top: 5px;
     left: 10px;
 }
+
 .filter {
     filter: invert(1);
 }
@@ -406,22 +394,31 @@ body {
     color: #ffffff;
     top: 12px;
 }
+.article {
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+    height: 282px;
+    width: 256px;
+
+}
 
 
 /* footer */
+.block-footer {
+    background-color: #323232;
+}
 
 .bottom {
-    float: left;
-    display: inline-block;
-    background-color: #323232;
-    width: 1600px;
     height: 88px;  
     text-decoration: none;
     font-weight: normal;
     font-family: OpenSans; 
-    padding: 38px 0px 33px 0px;
     text-align: center;
     font-size: 16px;
+    margin: 0px auto;
+    max-width: 1170px;
+    padding: 30px 15px 34px;
 }
 
 .link-one {
