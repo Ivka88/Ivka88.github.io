@@ -6,14 +6,7 @@
 
 body {
     background: #ffffff; 
-    font-family: Roboto;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto; 
-    max-width: 1140px;
-    padding: 0px 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -26,15 +19,13 @@ body {
     color:  #1abc9c; 
 } 
 
-.page-header, .iner, .name-clothes {
+.page-header, .name-clothes {
     background-color: #ffffff;
 }
 
 .gallery-caption, .gallery-word:first-child, .name-clothes, .price-clothes, .footer-title {
     color: #ffffff;
 }
-
-
 
 
 /* header */
@@ -73,7 +64,6 @@ body {
     margin-right: 0px;
 }
 
-
 .menu-link {
     display: inline-block;
     font-size: 14px;
@@ -84,10 +74,10 @@ body {
     font-weight: normal;
     padding: 6px;
 }
+
 .menu-link:hover {
     color: #1abc9c;
     cursor:pointer;
-
 }
 
 /*  Gallery*/
@@ -99,41 +89,32 @@ body {
 .gallery {
     background: #0f0101; 
     position: relative;
-    padding: 0px 15px;
     height: 600px;
-    background-image: #0f0101 url(../img/img1.jpg);
-    background-repeat: no-repeat, center center, cover;
+    background: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.background {
+    height: 600px;
+    background: rgba(0, 0, 0, 0.52);
+}
+
 .container-one {
     margin: 0px auto;
     max-width: 1170px;
     height: 600px;
 }
 
-.imgpage {
-    position: absolute;
-    margin: 0px auto;
-    max-width: 1600px;
-    height: 600px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-}
-
 .slayder {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1600px;
+    width: 1170px;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.52);
 }
 
 .gallery-caption {
     position: relative;
     top: 198px;
-    left: 420px;
+    left: 200px;
     display: inline-block;
 }
 
@@ -155,7 +136,7 @@ body {
     height: 104px;
     width: 104px;
     font-size: 60px;
-    left: 246px;
+    left: 15px;
     color: #ffffff;
     border: 1px solid rgba(10, 238, 181, 0.1);
 }
@@ -164,7 +145,7 @@ body {
     position: absolute;
     background-color:  rgba(10, 238, 181, 0.411);
     top: 230px;
-    right: 246px;
+    right: 15px;
     height: 104px;
     width: 104px;
     font-size: 60px;
@@ -236,26 +217,44 @@ body {
     position: relative;
     margin-right: 30px;
     height: 282px;
-    width: 256px;
 }
 
 .member:last-child {
     margin-right: 0px;
 }
 
+.article{ 
+    float: left;
+    height: 282px;
+    width: 256px;
+}
+
+.one {
+    background: url('../img/img3.jpg');
+}
+
+.two {
+    background: url('../img/img2.jpg');
+}
+
+.three {
+    background: url('../img/img5.jpg');
+}
+
+.four {
+    background: url('../img/img4.jpg');
+}
+
 .block {
     width: 256px;
     height: 40px;
-    display: inline-block;
     text-transform: uppercase;
     color: #ffffff;
-    font-weight: normal;
     font-size: 18px;
     font-weight: normal;
 }
 
 .name {
-    display: inline-block;
     float: left;
     height: 40px;
     width: 200px;
@@ -267,7 +266,6 @@ body {
 .price {
     float: right;
     width: 56px;
-    display: inline-block;
     height: 40px;
     background-color: #8c8c8c;
     text-align: center;
@@ -283,8 +281,7 @@ body {
 }
 
 .img {
-    display: block;
-    background-repeat: no-repeat, center center, cover; 
+    display: block; 
 }
 
 .icon-table {
@@ -299,6 +296,10 @@ body {
 }
 
 .member:hover > .icon-table {
+    display: block;
+}
+
+.block:hover > .icon-table {
     display: block;
 }
 
@@ -323,6 +324,18 @@ body {
 }
 
 .icon-arrows:hover {
+    background-color: #1abc9c;
+}
+
+.icon-love:hover {
+    background-color: #1abc9c;
+}
+
+.shop:hover {
+    background-color: #1abc9c;
+}
+
+.icon-clock:hover {
     background-color: #1abc9c;
 }
 
@@ -351,7 +364,6 @@ body {
 
 .text {
     float: right;
-    display: block;
     padding-top: 12px;
     color: #ffffff;
     font-size: 14px;
@@ -383,22 +395,6 @@ body {
     filter: invert(1);
 }
 
-.icon-shop::before {
-    float: left;
-    display: block;
-    position: absolute;
-    color: #ffffff;
-    top: 12px;
-}
-.article {
-    float: left;
-    display: inline-block;
-    margin-right: 30px;
-    height: 282px;
-    width: 256px;
-
-}
-
 
 /* footer */
 .block-footer {
@@ -409,7 +405,6 @@ body {
     height: 88px;  
     text-decoration: none;
     font-weight: normal;
-    font-family: OpenSans; 
     text-align: center;
     font-size: 16px;
     margin: 0px auto;
