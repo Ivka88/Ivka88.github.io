@@ -188,6 +188,7 @@ body {
 
 .matthew {
     display: inline-block;
+    position: relative;
     width: 30.83%;
     background-color: #95e1d3;
     height: 29.375rem;
@@ -196,6 +197,8 @@ body {
 .photo-graphic {
     width: 100%;
     background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 29.375rem;
 }
 .afect {
@@ -211,12 +214,16 @@ body {
 .photo-design {
     width: 100%;
     background-image: url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 29.375rem;
 }
 
 .photo-developer {
     width: 100%;
     background-image: url('../img/img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 29.375rem;
 }
 
@@ -225,26 +232,11 @@ body {
     animation-duration: 200ms;
     animation-timing-function: linear;
 }
-.photo-graphic:hover > .article-matthew {
-    transform: translate(0, 0);
-    animation-duration: 200ms;
-    animation-timing-function: linear;
-    background-image: linear-gradient(#f38181, #fce38a);
-    filter: opacity(0.8);
-}
 
 .afect:hover > .photo-design {
     transform: translate(-0.625rem,-0.625rem);
     animation-duration: 200ms;
     animation-timing-function: linear;
-}
-
-.photo-design:hover > .article-matthew {
-    transform: translate(0, 0);
-    animation-duration: 200ms;
-    animation-timing-function: linear;
-    background-image: linear-gradient(#f38181, #fce38a);
-    filter: opacity(0.8);
 }
 
 .afect:hover > .photo-developer {
@@ -253,7 +245,7 @@ body {
     animation-timing-function: linear;
 }
 
-.photo-developer:hover > .article-matthew {
+.afect:hover  .article-matthew {
     transform: translate(0, 0);
     animation-duration: 200ms;
     animation-timing-function: linear;
@@ -261,16 +253,22 @@ body {
     filter: opacity(0.8);
 }
 
-.icon:hover {
-    background-color: #95e1d3;
-}
-
-.article-matthew:hover >.share {
+.afect:hover .share {
     display: flex;
     justify-content: space-between;
     height: 56px;
     width: 230px;
+}
+
+.afect:hover .icon {
+    filter: opacity(1);
+    height: 56px;
+    width: 56px;
     background-color: #fce38a;
+}
+
+.icon:hover .icon {
+    background-color: #95e1d3;
 }
 
 .share {
@@ -278,11 +276,13 @@ body {
     height: 56px;
     display: none;
     position: absolute;
-    top: 200px;
-    left: 66px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .icon {
+    display: inline-block;
     height: 56px;
     width: 56px;
 }
@@ -322,3 +322,19 @@ body {
     color: #999999;
     padding-bottom: 2.5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
