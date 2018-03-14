@@ -177,7 +177,10 @@ body {
 .png {
     background-image: url('../img/img1.png');
     background-size: cover;
-   
+}
+
+.font {
+    background: rgba(0, 0, 0, 0.7); 
 }
 
 .part-two {
