@@ -46,11 +46,10 @@ body {
 .page-header {
     margin: 0px auto;
     max-width: 58.75rem;
-    height: 10rem;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding: 2.25rem 0.9375rem 5rem;
+    padding: 3.125rem 0.9375rem 7.87rem;
 }
 
 .logo {
@@ -61,13 +60,10 @@ body {
     line-height: 2.5625rem;
 }
 
-
 .menu{
     display: flex;
     width: 30.625rem;
     justify-content: space-between;
-    height: 2rem;
-    padding-top: 0.5rem;
 }
 
 .menu-item {
@@ -80,8 +76,6 @@ body {
     text-transform: uppercase;
     color: #222222;
     font: 400 0.875rem 'Montserrat', sans-serif;
-    line-height: 2.5625rem;
-    padding-bottom: 0.75rem;
 }
 
 .menu-link:hover {
@@ -108,8 +102,8 @@ body {
     align-items: center; 
     text-transform: uppercase;
     font: 700 2.5rem 'Montserrat', sans-serif;
-    line-height: 4.6875rem;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
 }
 
 .word {
@@ -132,8 +126,8 @@ body {
 .article {
     display: flex;
     justify-content: space-between;
-    width: 940px;
-    padding: 4.625rem 0.9375rem 7.625rem;
+    max-width: 58.75rem;
+    padding: 4.812rem 0.9375rem 7.625rem;
 }
 
 .shop { 
@@ -161,7 +155,8 @@ body {
 
 .alarm {
     font: 700 1.125rem 'Montserrat', sans-serif;
-    line-height: 4.6875rem;
+    margin-bottom: 1rem;
+    margin-top: 1.75rem;
     color: #222222;
 }
 
@@ -179,22 +174,25 @@ body {
 .png {
     background-image: url('../img/img1.png');
     background-size: cover;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .font {
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.8); 
 }
 
 .part-two {
     display: flex;
     margin: 0 auto;
     max-width: 58.75rem;
-    height: 42.25rem;
     flex-direction: column;
     align-items: center; 
     justify-content: space-evenly;
     color: #ffffff;
-    padding: 0 1rem;
+    padding: 6.875rem 1rem 7.187rem;
 }
 
 .title {
@@ -206,6 +204,7 @@ body {
     width: 56.875rem;
     height: 13.375rem;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.01);
+    margin: 4.875rem 0rem 1.812rem;
 }
 
 .form {
@@ -215,7 +214,7 @@ body {
     justify-content: space-between;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"]  {
     color: #bbbbbb;
     font: 700 0.875rem 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -225,20 +224,20 @@ input[type="text"] {
     border-radius: 0.3rem;
 }  
 
-input[type="text"]:invalid {
-    outline: 0.01rem solid red;
+input[type="text"]:invalid, input[type="email"]:invalid {
+    outline: 0.125rem solid red;
 }
 
-input[type="text"]:valid {
-    outline: 0.01rem solid forestgreen;
+input[type="text"]:valid, input[type="email"]:valid {
+    outline: 0.125rem solid forestgreen;
 }
     
 .message:invalid {
-    outline: 0.01rem solid red;
+    outline: 0.125rem solid red;
 }
 
 .message:valid {
-    outline: 0.01rem solid forestgreen;
+    outline: 0.125rem solid forestgreen;
 }
 
 .message {
@@ -256,8 +255,10 @@ input[type="text"]:valid {
 
 .submit {
     display: inline-block;
+    margin-left: 21.875rem;
     text-transform: uppercase;
-    padding: 1.6875rem;
+    height: 4.125rem;
+    width: 15rem;
     border-radius: 0.3rem;
     color: #ffffff;
     background-color: #fed136;
