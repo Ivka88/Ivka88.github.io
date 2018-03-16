@@ -83,17 +83,21 @@
                     <div class="title"> 
                     <h2 class="gallery-word">Contact Us</h2>
                     <h3 class="word">Proin iaculis purus consequat sem cure.</h3>
-                    </div>
+                </div>
 
-                <form class="name" action="#" method="get">
+                <form action="#" method="GET">
+                    <div class="name">
                     <div class="form">
                     <input type="text" name="name" placeholder="Your Name *" required>
-                    <input type="text" name="mail" placeholder="Your E-mail *" required>
+                    <input type="email" name="mail" placeholder="Your E-mail *" required>
                     <input type="text" name="subject" placeholder="Subject">
                     </div>
-                    <textarea class="message" name="body" rows="11" cols="60" placeholder="Your Message *" required minlength="10"></textarea>
+                    <textarea name="message" rows="11" cols="60" placeholder="Your Message *" required minlength="1" class="message"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Send Message</button>
                 </form>
-                <button class="submit" type="submit" disabled>Send Message</button>
+                
+                
                 </div>
                 </div>
             </div> 
