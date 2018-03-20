@@ -8,7 +8,7 @@
 
     .container {
         min-width: 532px;
-        padding: 3.19rem 3.375rem 14.563rem;
+        padding: 3.19rem 1rem 14.563rem;
     }
 
     header {
@@ -59,7 +59,7 @@
     }
 
     .title {
-        margin: 0rem 8rem;
+        margin: 0rem 3rem;
         font-size: 3.248rem;
     }
 
