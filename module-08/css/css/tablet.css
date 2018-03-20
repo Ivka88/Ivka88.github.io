@@ -1,0 +1,67 @@
+@media (min-width: 778px) {
+    
+    .wrap {
+        background-image: url('../img/img1t.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        min-width: 778px;
+        max-width: 1440px;
+        padding: 3.19rem 3.375rem 14.563rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 10.19rem;
+    }
+
+    .part {
+        min-width: 778px;
+        max-width: 1440px;
+        padding: 4.625rem 8.625rem 2.5rem;
+    }
+
+    .menu{
+        margin-bottom: 0rem;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+
+    .column {
+        flex-basis: 46.1%;
+    }
+
+    .section {
+        margin: 1.313rem 0rem 3.75rem;
+    }
+
+    .title-black {
+        margin-bottom: 2.312rem;
+    }
+
+    .title {
+        margin: 0rem 2rem;
+        font-size: 3.248rem;
+    }
+
+    .subtitle {
+        margin: 2.687rem 0rem 2.125rem;
+        font-size: 1.5rem;
+    }
+    
+    .button {
+        font-size: 0.874rem;
+    }
+
+    
+
+}

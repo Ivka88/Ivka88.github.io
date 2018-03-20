@@ -1,0 +1,198 @@
+
+.logo, .link, .title, .subtitle, .button {
+    color: #ffffff;
+}
+
+.name, .title-black {
+    color: #333333;
+}
+
+.promo {
+    background-color: #1a1915; 
+}
+.wrap {
+    background-image: url('../img/img1m.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 1.25rem 0.93rem 8.625rem; 
+    min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;    
+}
+
+.logo {
+    font: 700 1.25rem 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8.125rem;
+}
+
+.item {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.68rem 1.43rem;
+    font: 700 0.875rem 'Montserrat', sans-serif;
+}
+
+.link:hover {
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font: 700 1.875rem 'Montserrat', sans-serif;
+}
+
+.subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.25rem 2rem 1.25rem;
+    font: 400 1.125rem 'Roboto', serif;
+    text-transform: none;
+}
+
+.button {
+    display: inline-block;
+    height: 2.5rem;
+    width: 17.625rem;
+    border-radius: 1.2rem;
+    background-color: #ff4e50;
+    border: 2px solid #ff4e50;
+    font: 700 0.875rem 'Montserrat', sans-serif;
+}
+
+section {
+    background-color: #ffffff;
+}
+
+.part {
+    min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 4.5rem 1.25rem 3.563rem;
+}
+
+.title-black {
+    font: 700 1.374rem 'Montserrat', sans-serif;
+    margin-bottom: 1.25rem;
+}
+
+.section {
+    margin: 1.75rem 2rem 2rem;
+}
+
+.name {
+    font: 700 0.873rem 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.lorem {
+    font: 400 0.873rem 'Roboto', serif;
+    color: #666666;
+}
+
+.shop { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: auto;
+    width: 7.75rem;
+    height: 7.75rem;  
+    border-radius: 50%;
+}
+
+.icon1 {
+    background: url('../img/img1.png') no-repeat center;
+}
+
+.icon2 {
+    background: url('../img/img2.png') no-repeat center;
+}
+
+.icon3 {
+    background: url('../img/img3.png') no-repeat center;
+}
+
+.icon4 {
+    background: url('../img/img4.png') no-repeat center;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    height: 41px;
+    width: 41px;
+}
+
+.tv {
+    background: url('../icon/icon2-1.png');
+}
+
+.flask {
+    background: url('../icon/icon2-2.png');
+}
+
+.coffee {
+    background: url('../icon/icon2-3.png');
+}
+
+.letter {
+    background: url('../icon/icon2-4.png');
+}
+
+.grafic {
+    height: 16px;
+    width: 16px;
+    margin: auto;
+}
+
+.grafic1 {
+    background: url('../icon/icon3-1.png') center;
+}
+
+.grafic2 {
+    background: url('../icon/icon3-2.png') center;
+}
+
+.grafic3 {
+    background: url('../icon/icon3-3.png') center;
+}
+
+.grafic4 {
+    background: url('../icon/icon3-4.png') center;
+}
+
+.button-red {
+    color: #ff4e50;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

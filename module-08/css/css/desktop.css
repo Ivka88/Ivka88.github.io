@@ -1,0 +1,46 @@
+@media (min-width: 972px) {
+    .promo {
+        background-color: #1a1915;;
+    }
+    .wrap {
+        background-image: url('../img/img.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        margin-bottom: 9.875rem;
+    }
+
+    .container {
+        padding: 3.5rem 0.875rem 14.563rem;
+        min-width: 972px;
+        max-width: 1440px;
+    }
+    
+    .part {
+        min-width: 972px;
+        max-width: 1440px;
+        padding: 4.375rem 0.875rem 4.562rem;
+    }
+
+    .title {
+        margin: 0 12rem 2.375rem;
+    }
+
+    .subtitle {
+        margin-top: 2.375rem;
+    }
+
+    .article {
+        display: flex;
+    }
+
+    .column {
+        flex-basis: 22.5%;
+    }
+
+    .title-black {
+        margin-bottom: 2rem;
+    }
+}
