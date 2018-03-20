@@ -1,4 +1,4 @@
-@media (min-width: 972px) {
+@media screen and (min-width: 980px) {
     .promo {
         background-color: #1a1915;;
     }
@@ -9,31 +9,40 @@
     }
 
     header {
-        margin-bottom: 9.875rem;
+        margin: 0rem 0rem 9.875rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .menu{
+        margin-bottom: 0rem;
     }
 
     .container {
         padding: 3.5rem 0.875rem 14.563rem;
-        min-width: 972px;
-        max-width: 1440px;
+        min-width: 980px;
     }
     
     .part {
-        min-width: 972px;
-        max-width: 1440px;
+        min-width: 980px;
         padding: 4.375rem 0.875rem 4.562rem;
     }
 
     .title {
-        margin: 0 12rem 2.375rem;
+        margin: 0rem 20rem;
     }
 
     .subtitle {
-        margin-top: 2.375rem;
+        margin: 2.375rem 0rem 2.125rem;
     }
 
     .article {
         display: flex;
+        justify-content: space-between;
+    }
+
+    .section {
+        margin: 0rem 0rem 3.75rem;
     }
 
     .column {
@@ -42,5 +51,12 @@
 
     .title-black {
         margin-bottom: 2rem;
+    }
+    .article > .column-a {
+        order: 1;
+    }
+
+    .article > .column-c {
+        order: 1;
     }
 }
