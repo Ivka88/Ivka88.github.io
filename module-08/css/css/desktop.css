@@ -1,4 +1,4 @@
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 960px)  {
     .promo {
         background-color: #1a1915;;
     }
@@ -20,16 +20,18 @@
 
     .container {
         padding: 3.5rem 0.875rem 14.563rem;
-        min-width: 980px;
+        width: 100%;
+        min-width: 960px;
     }
     
     .part {
-        min-width: 980px;
+        min-width: 960px;
+        width: 100%;
         padding: 4.375rem 0.875rem 4.562rem;
     }
 
     .title {
-        margin: 0rem 20rem;
+        margin: 0rem 19.5rem;
     }
 
     .subtitle {
@@ -42,7 +44,7 @@
     }
 
     .section {
-        margin: 0rem 0rem 3.75rem;
+        margin: 1.313rem 0rem 3.75rem;
     }
 
     .column {

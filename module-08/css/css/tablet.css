@@ -1,4 +1,4 @@
-@media screen and (min-width: 532px) and (max-width: 979px){
+@media screen and (min-width: 480px) and (max-width: 959px){
     
     .wrap {
         background-image: url('../img/img1t.png');
@@ -7,7 +7,8 @@
     }
 
     .container {
-        min-width: 532px;
+        min-width: 480px;
+        width: 100%;
         padding: 3.19rem 1rem 14.563rem;
     }
 
@@ -19,8 +20,9 @@
     }
 
     .part {
-        min-width: 532px;
-        padding: 4.625rem 8.625rem 2.5rem;
+        min-width: 480px;
+        width: 100%;
+        padding: 4.625rem 1rem 2.5rem;
     }
 
     .menu{
