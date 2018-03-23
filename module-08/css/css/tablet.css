@@ -1,5 +1,7 @@
-@media screen and (min-width: 480px) and (max-width: 959px){
-    
+@media screen and (min-width: 480px) and (max-width: 961px){
+    .promo {
+        background-color: #1a1915; 
+    }
     .wrap {
         background-image: url('../img/img1t.png');
         background-size: cover;

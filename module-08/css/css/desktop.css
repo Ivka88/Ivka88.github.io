@@ -1,7 +1,7 @@
-@media screen and (min-width: 960px)  {
-    .promo {
+@media screen and (min-width: 962px)  {
+    /* .promo {
         background-color: #1a1915;;
-    }
+    } */
     .wrap {
         background-image: url('../img/img.png');
         background-size: cover;
@@ -20,13 +20,13 @@
 
     .container {
         padding: 3.5rem 0.875rem 14.563rem;
-        width: 100%;
-        min-width: 960px;
+        width: 962px;
+        min-width: 962px;
     }
     
     .part {
-        min-width: 960px;
-        width: 100%;
+        min-width: 962px;
+        width: 962px;
         padding: 4.375rem 0.875rem 4.562rem;
     }
 
