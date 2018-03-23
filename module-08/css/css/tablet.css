@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) and (max-width: 961px){
+@media screen and (min-width: 480px) and (max-width: 979px){
     .promo {
         background-color: #1a1915; 
     }
@@ -11,24 +11,24 @@
     .container {
         min-width: 480px;
         width: 100%;
-        padding: 3.19rem 1rem 14.563rem;
+        padding: 51px 20px 233px;
     }
 
     header {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-bottom: 10.19rem;
+        margin-bottom: 163px;
     }
 
     .part {
         min-width: 480px;
-        width: 100%;
-        padding: 4.625rem 1rem 2.5rem;
+        width: 532px;
+        padding: 74px 20px 40px;
     }
 
     .menu{
-        margin-bottom: 0rem;
+        margin-bottom: 0px;
     }
 
     .article {
@@ -55,25 +55,25 @@
     }
 
     .section {
-        margin: 1.313rem 0rem 3.75rem;
+        margin: 21px 0px 60px;
     }
 
     .title-black {
-        margin-bottom: 2.312rem;
+        margin-bottom: 37px;
     }
 
     .title {
-        margin: 0rem 3rem;
-        font-size: 3.248rem;
+        margin: 0px 70px;
+        font-size: 51.97px;
     }
 
     .subtitle {
-        margin: 2.687rem 0rem 2.125rem;
-        font-size: 1.5rem;
+        margin: 43px 0px 34px;
+        font-size: 23.99px;
     }
     
     .button {
-        font-size: 0.874rem;
+        font-size: 13.99px;
     }
 
     

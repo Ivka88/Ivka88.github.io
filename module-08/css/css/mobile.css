@@ -17,21 +17,21 @@
 }
 
 .container {
-    padding: 1.25rem 0.93rem 8.625rem; 
+    padding: 32px 14px 140px; 
     min-width: 320px;
     margin: 0 auto;
     width: 100%;    
 }
 
 .logo {
-    font: 700 1.25rem 'Montserrat', sans-serif;
+    font: 700 20px 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
 .menu{
     display: flex;
     justify-content: center;
-    margin-bottom: 8.125rem;
+    margin-bottom: 130px;
 }
 
 .item {
@@ -41,8 +41,8 @@
 .link {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0.68rem 1.43rem;
-    font: 700 0.875rem 'Montserrat', sans-serif;
+    padding: 11px 23px;
+    font: 700 14px 'Montserrat', sans-serif;
 }
 
 .link:hover {
@@ -52,27 +52,27 @@
 
 .title {
     text-transform: uppercase;
-    margin: 2.5rem 0rem 0rem;
-    font: 700 1.875rem 'Montserrat', sans-serif;
+    margin: 40px 0px 0px;
+    font: 700 30px 'Montserrat', sans-serif;
 }
 
 .subtitle {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1.25rem 2.2rem 1.25rem;
-    font: 400 1.125rem 'Roboto', serif;
+    margin: 22px 34px 20px;
+    font: 400 18px 'Roboto', serif;
     text-transform: none;
 }
 
 .button {
     display: inline-block;
-    height: 2.5rem;
-    width: 17.625rem;
-    border-radius: 1.2rem;
+    height: 40px;
+    width: 282px;
+    border-radius: 19px;
     background-color: #ff4e50;
     border: 2px solid #ff4e50;
-    font: 700 0.875rem 'Montserrat', sans-serif;
+    font: 700 14px 'Montserrat', sans-serif;
 }
 
 section {
@@ -80,28 +80,28 @@ section {
 }
 
 .part {
-    min-width: 320px;
+    max-width: 320px;
     width: 100%;
     margin: 0 auto;
-    padding: 4.5rem 1.25rem 3.563rem;
+    padding: 70px 20px 57px;
 }
 
 .title-black {
-    font: 700 1.374rem 'Montserrat', sans-serif;
-    margin-bottom: 1.25rem;
+    font: 700 21.98px 'Montserrat', sans-serif;
+    margin-bottom: 21px;
 }
 
 .section {
-    margin: 1.75rem 2rem 2rem;
+    margin: 21px 32px 32px;
 }
 
 .name {
-    font: 700 0.873rem 'Montserrat', sans-serif;
-    margin-bottom: 1rem;
+    font: 700 13.97px 'Montserrat', sans-serif;
+    margin-bottom: 15px;
 }
 
 .lorem {
-    font: 400 0.873rem 'Roboto', serif;
+    font: 400 13.97px 'Roboto', serif;
     color: #666666;
 }
 
@@ -110,8 +110,8 @@ section {
     justify-content: flex-end;
     align-items: flex-end;
     margin: auto;
-    width: 7.75rem;
-    height: 7.75rem;  
+    width: 124px;
+    height: 124px;  
 }
 
 img {
