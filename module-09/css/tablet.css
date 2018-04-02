@@ -1,0 +1,91 @@
+@media screen and (min-width: 480px) and (max-width: 979px){
+    .promo {
+        background-color: #1a1915; 
+    }
+    .wrap {
+        background-image: url('../img/img1t.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        min-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 52px;
+    }
+
+    .part {
+        min-width: 480px;
+        width: 532px;
+        margin: 0 auto; 
+    }
+
+    .menu{
+        margin-bottom: 0px;
+    }
+
+    .title {
+        font: 700 51.97px 'Montserrat', sans-serif;
+    }
+
+    .subtitle {
+        font-size: 23.99px;
+    }
+    
+    .button {
+        font-size: 13.99px;
+        margin: 40px 0;
+        padding: 0;
+    }
+
+    .header [class*="col-"]:nth-child(1), 
+    .header [class*="col-"]:nth-child(2) {
+        margin-top: 0px; 
+    }
+    
+    .top-title {
+        margin: 0;
+    }
+
+    .top-article {
+        padding: 20px;
+    }
+
+    .top-title [class*="title"] {
+        padding: 0;
+        margin: 164px 0 42px;
+    }
+
+    .top-title [class*="subtitle"] {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top-button [class*="button"] {
+        margin: 34px 0 234px;
+    }
+
+    .top-content [class*="title-black"] {
+        margin: 74px 0 0;
+    }
+    
+    .top-article [class*="col-"]:nth-child(odd) {
+        margin: 36px 15px 0;
+        padding: 0;
+        flex-basis: 43%;
+    }
+    
+    .top-article [class*="col-"]:nth-child(even) {
+        margin: 60px 15px 0;
+        padding: 0;
+        flex-basis: 43%;
+        order: 1;
+    }
+}
