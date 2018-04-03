@@ -1,12 +1,19 @@
 @media screen and (min-width: 980px)  {
-    .promo {
-        background-color: #1a1915;;
+    .container-fluid {
+        background-color: #1a1915;
+        padding: 0;
     }
-    
+
     .wrap {
-        background-image: url('../img/img.png');
+        background-image: url('../img/1.png');
         background-size: cover;
         background-position: center;
+    }
+
+    .promo {
+        width: 980px;
+        min-width: 980px;
+        margin: 0 auto;
     }
 
     .header {
@@ -16,15 +23,9 @@
         margin-top: 56px;
     }
 
-    .container {
-        width: 980px;
-        min-width: 980px;
-    }
-
     .part {
         min-width: 980px;
         width: 980px;
-        margin: 0 auto;
     }
 
     .title {

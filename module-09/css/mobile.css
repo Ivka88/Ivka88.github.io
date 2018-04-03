@@ -6,15 +6,9 @@
     color: #333333;
 }
 
-.container {
+.container-fluid {
+    background-color: #1a1915;
     padding: 0;
-    min-width: 320px;
-    margin: 0 auto;
-    width: 100%;  
-}
-
-.promo {
-    background-color: #1a1915; 
 }
 
 .wrap {
@@ -25,6 +19,12 @@
     width: 100%;
     height: auto;
     padding: 15px;
+}
+
+.promo {
+    padding: 0;
+    min-width: 320px;
+    width: 100%;  
 }
 
 .header {
@@ -66,6 +66,11 @@
 .logo {
     color: #ffffff;
     font: 700 20px 'Montserrat', sans-serif;
+}
+
+.logo:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .title {
@@ -118,7 +123,6 @@ section {
 .part {
     max-width: 320px;
     width: 100%;
-    margin: 0 auto;
 }
 
 .title-black {

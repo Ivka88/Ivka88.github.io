@@ -1,17 +1,18 @@
 @media screen and (min-width: 480px) and (max-width: 979px){
-    .promo {
-        background-color: #1a1915; 
+    .container-fluid {
+        background-color: #1a1915;
+        padding: 0;
     }
+
+    .promo {
+        min-width: 480px;
+        width: 100%;
+    }
+
     .wrap {
         background-image: url('../img/img1t.png');
         background-size: cover;
         background-position: center;
-    }
-
-    .container {
-        min-width: 480px;
-        width: 100%;
-        margin: 0 auto;
     }
 
     .header {
@@ -20,13 +21,7 @@
         justify-content: space-between;
         margin-top: 52px;
     }
-
-    .part {
-        min-width: 480px;
-        width: 532px;
-        margin: 0 auto; 
-    }
-
+    
     .menu{
         margin-bottom: 0px;
     }
@@ -45,6 +40,11 @@
         padding: 0;
     }
 
+    .part {
+        min-width: 480px;
+        width: 532px;
+    }
+  
     .header [class*="col-"]:nth-child(1), 
     .header [class*="col-"]:nth-child(2) {
         margin-top: 0px; 
