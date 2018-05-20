@@ -5,6 +5,7 @@ let attempts = 3;
 
 do {
   let userInput = prompt("Введите пароль");
+  console.log(userInput);
 
   attempts -= 1;
   if (attempts === 0) {
