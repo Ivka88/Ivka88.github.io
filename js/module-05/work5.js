@@ -111,5 +111,12 @@ console.log(getUsersWithAge(users, 20, 30));
 console.log(getUsersWithAge(users, 30, 40));
 const getUsersByGender = (arr, gender) => users.filter(users => users.gender === gender).map(user => user.name);
 console.log(getUsersByGender(users, 'male'));
+const getUsersByFriend = (arr, name) => {
+  const usersFriend = arr.reduce((arr, user) => user.friends.includes(name) ? arr.concat(user.name) : arr, []);
+  return usersFriend;
+};
+console.log(getUsersByFriend(users, 'Briana Decker')); 
+console.log(getUsersByFriend(users, 'Goldie Gentry')); 
+
 
 
