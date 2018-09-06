@@ -185,6 +185,15 @@ const updateUser = (id, name, age) => {
     .catch(err => console.log(err));
 }
 
+const sabmitUpdateUser = event => {
+  event.preventDefault();
+  updateUser(updateId.value, updateName.value, updateAge.value).then(user => {
+    const markup = `User update id: ${user[`id`]}, name - ${user[`name`]}, age - ${user[`age`]}`;
+    updateList.innerHTML = markup;
+  })
+  event.target.reset();
+}
+
 updateUsers.addEventListener('submit', sabmitUpdateUser);
 
 
